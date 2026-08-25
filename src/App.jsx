@@ -2,10 +2,10 @@ import { useState } from 'react'
 
 const members = [
   { name: 'Gautam', role: 'Instructor', initials: 'G', color: 'gold', active: true },
-  { name: 'Aarav Mehta', role: 'Git & CI', initials: 'AM', color: 'coral', active: true },
-  { name: 'Diya Shah', role: 'Containers', initials: 'DS', color: 'blue', active: true },
-  { name: 'Kabir Rao', role: 'Cloud basics', initials: 'KR', color: 'mint', active: true },
-  { name: 'Mira Joshi', role: 'Automation', initials: 'MJ', color: 'lavender', active: false },
+  { name: 'Vaibhav', role: 'Git & CI', initials: 'AM', color: 'coral', active: true },
+  { name: 'Ankush', role: 'Containers', initials: 'DS', color: 'blue', active: true },
+  { name: 'Nilam', role: 'Cloud basics', initials: 'KR', color: 'mint', active: true },
+  { name: 'Manswi', role: 'Automation', initials: 'MJ', color: 'lavender', active: false },
 ]
 
 const commands = [
