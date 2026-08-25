@@ -1,20 +1,20 @@
 {
     "homepage": "https://github.com/baviskarswapnil306-boop/DevOpsReact.git",
-  "name": "devops-class-dashboard",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {}
+    "name": "devops-class-dashboard",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "latest",
+        "gh-pages": "^6.3.0",
+        "react": "latest",
+        "react-dom": "latest",
+        "vite": "latest"
+    }
 }
