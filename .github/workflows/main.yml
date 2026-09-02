@@ -21,12 +21,14 @@ jobs:
       - name: install dependencies
         run: npm install
 
+      - name: Fix permissions
+        run: chmod +x node_modules/.bin/*
+
       - name: Build app
         run: npm run build
 
       - name: Artifacts collection
         uses: actions/upload-artifact@v7.0.1
         with:
-         name: # next js build
-         path: ./dist/
-          
+          name: next js build
+          path: ./dist/
